@@ -27,19 +27,19 @@ function setup() {
   skySkip.addImage(SkySkipImage);
 }
 function preload(){
- plateImage = loadImage("Images/AloneCloudB.png");
- plateImage2 = loadImage("Images/AloneCloudA.png");
- plateImage3 = loadImage("Images/FamilyCloudA.png");
- plateImage4 = loadImage("Images/FamilyCloudB.png");
- playerImageUp = loadImage("Images/playerUp.png");
- playerImageDown = loadImage("Images/playerDown.png");
- playerImageLand = loadImage("Images/playerLand.png");
- playerImageDive = loadImage("Images/PlayerDive.png");
- playerUpDive = loadImage("Images/playerUpDive.png");
- BackGroundImage = loadImage("Images/BackGroundImage.png");
- buttonImage = loadImage("Images/PlayStartImage.png");
- SkySkipImage = loadImage("Images/SkySkipImage.png");
- startingBack = loadImage("Images/LoadingScreenBackground.png")
+ plateImage = loadImage("AloneCloudB.png");
+ plateImage2 = loadImage("AloneCloudA.png");
+ plateImage3 = loadImage("FamilyCloudA.png");
+ plateImage4 = loadImage("FamilyCloudB.png");
+ playerImageUp = loadImage("playerUp.png");
+ playerImageDown = loadImage("playerDown.png");
+ playerImageLand = loadImage("playerLand.png");
+ playerImageDive = loadImage("PlayerDive.png");
+ playerUpDive = loadImage("playerUpDive.png");
+ BackGroundImage = loadImage("BackGroundImage.png");
+ buttonImage = loadImage("PlayStartImage.png");
+ SkySkipImage = loadImage("SkySkipImage.png");
+ startingBack = loadImage("LoadingScreenBackground.png")
 }
 function draw() {
   
